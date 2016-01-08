@@ -1,0 +1,9 @@
+NUM_SERVERS=3
+
+start_servers $NUM_SERVERS
+
+# wait for S3 to become leader
+sleep 1
+
+#reconcile the logs
+#END TEST
